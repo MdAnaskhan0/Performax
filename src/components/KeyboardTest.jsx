@@ -1,10 +1,11 @@
 import React from 'react'
+import Keyboard from './TestComponent/Keyboard'
 
 const KeyboardTest = () => {
     return (
-        <div>
-            <h1>Keyboard Test Page</h1>
-        </div>
+        <>
+            <Keyboard />
+        </>
     )
 }
 

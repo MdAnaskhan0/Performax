@@ -27,13 +27,13 @@ const Header = () => {
                     {/* Desktop Navigation */}
                     <div className="hidden md:block">
                         <ul className="flex gap-6 text-center text-base font-semibold">
-                            <li><Link to="/monitor-test" className="hover:text-blue-600 transition-colors">Monitor Test</Link></li>
-                            <li><Link to="/keyboard-test" className="hover:text-blue-600 transition-colors">Keyboard Test</Link></li>
-                            <li><Link to="/mouse-test" className="hover:text-blue-600 transition-colors">Mouse Test</Link></li>
-                            <li><Link to="/microphone-test" className="hover:text-blue-600 transition-colors">Microphone Test</Link></li>
-                            <li><Link to="/webcam-test" className="hover:text-blue-600 transition-colors">Webcam Test</Link></li>
-                            <li><Link to="/cpu-test" className="hover:text-blue-600 transition-colors">CPU Test</Link></li>
-                            <li><Link to="/gpu-test" className="hover:text-blue-600 transition-colors">GPU Test</Link></li>
+                            <li><Link to="/monitor-test" className="hover:text-blue-200 transition-colors">Monitor Test</Link></li>
+                            <li><Link to="/keyboard-test" className="hover:text-blue-200 transition-colors">Keyboard Test</Link></li>
+                            <li><Link to="/mouse-test" className="hover:text-blue-200 transition-colors">Mouse Test</Link></li>
+                            <li><Link to="/microphone-test" className="hover:text-blue-200 transition-colors">Microphone Test</Link></li>
+                            <li><Link to="/webcam-test" className="hover:text-blue-200 transition-colors">Webcam Test</Link></li>
+                            <li><Link to="/cpu-test" className="hover:text-blue-200 transition-colors">CPU Test</Link></li>
+                            <li><Link to="/gpu-test" className="hover:text-blue-200 transition-colors">GPU Test</Link></li>
                         </ul>
                     </div>
 

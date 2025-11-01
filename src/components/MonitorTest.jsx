@@ -1,10 +1,11 @@
 import React from 'react'
+import DefectivePixel from './TestComponent/DefectivePixel'
 
 const MonitorTest = () => {
     return (
-        <div>
-            <h1>Monitor Test</h1>
-        </div>
+        <>
+            <DefectivePixel />
+        </>
     )
 }
 

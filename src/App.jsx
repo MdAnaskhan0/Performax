@@ -14,17 +14,15 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className='mx-30'>
-        <Routes>
-          <Route path="/monitor-test" element={<MonitorPageTest />} />
-          <Route path="/keyboard-test" element={<KeyboardTestPage />} />
-          <Route path="/mouse-test" element={<MouseTestPage />} />
-          <Route path="/webcam-test" element={<WebCamTestPage />} />
-          <Route path="/microphone-test" element={<MicroPhoneTestPage />} />
-          <Route path="/cpu-test" element={<CpuTestPage />} />
-          <Route path="/gpu-test" element={<GpuTestPage />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/monitor-test" element={<MonitorPageTest />} />
+        <Route path="/keyboard-test" element={<KeyboardTestPage />} />
+        <Route path="/mouse-test" element={<MouseTestPage />} />
+        <Route path="/webcam-test" element={<WebCamTestPage />} />
+        <Route path="/microphone-test" element={<MicroPhoneTestPage />} />
+        <Route path="/cpu-test" element={<CpuTestPage />} />
+        <Route path="/gpu-test" element={<GpuTestPage />} />
+      </Routes>
     </>
   )
 }
