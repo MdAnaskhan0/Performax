@@ -8,6 +8,7 @@ import MicroPhoneTestPage from './pages/MicroPhoneTestPage'
 import WebCamTestPage from './pages/WebCamTestPage'
 import CpuTestPage from './pages/CpuTestPage'
 import GpuTestPage from './pages/GpuTestPage'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/cpu-test" element={<CpuTestPage />} />
         <Route path="/gpu-test" element={<GpuTestPage />} />
       </Routes>
+      <Footer />
     </>
   )
 }

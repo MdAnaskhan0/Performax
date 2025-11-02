@@ -1,10 +1,11 @@
 import React from 'react'
+import Cpu from './TestComponent/Cpu'
 
 const CpuTest = () => {
   return (
-    <div>
-      <h1>CPU Test</h1>
-    </div>
+    <>
+      <Cpu />
+    </>
   )
 }
 

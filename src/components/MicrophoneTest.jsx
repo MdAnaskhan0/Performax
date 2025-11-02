@@ -1,10 +1,11 @@
 import React from 'react'
+import Microphone from './TestComponent/Microphone'
 
 const MicrophoneTest = () => {
   return (
-    <div>
-      <h1>Microphone Test</h1>
-    </div>
+    <>
+      <Microphone />
+    </>
   )
 }
 

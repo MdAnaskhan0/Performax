@@ -1,10 +1,11 @@
 import React from 'react'
+import Mouse from './TestComponent/Mouse'
 
 const MouseTest = () => {
     return (
-        <div>
-            <h1>Mouse Test</h1>
-        </div>
+        <>
+            <Mouse />
+        </>
     )
 }
 
